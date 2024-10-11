@@ -10,7 +10,6 @@ body {
   align-items: center;
   margin: 0;
   overflow-x: hidden; /* Prevents horizontal scrolling */
- 
 }
 
 
@@ -53,10 +52,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   background-image: url(header-shapes\ mobile.png);
   margin-bottom: 114px;
-  
 }
 
 .primarytext {
@@ -116,4 +113,3 @@ ul {
   padding: 0;
   margin: 0;
 }
-
