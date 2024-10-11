@@ -11,9 +11,6 @@ body {
   margin: 0;
   overflow-x: hidden; /* Prevents horizontal scrolling */
 }
-
-
-
 /* Header Section */
 header {
   display: flex;
