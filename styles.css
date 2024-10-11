@@ -165,3 +165,66 @@ ul {
   white-space: normal;     /* Allows text to wrap onto multiple lines */
   word-wrap: break-word;    /* Ensures long words will break */
 }
+
+
+/* Project Information Box */
+.project-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 236px;
+  height: 32px;
+  gap: 12px;
+  opacity: 1;
+}
+
+.project-info span {
+  font-size: 14px;
+  color: #707070;
+  margin: 0;
+}
+
+/* Optional for visual enhancement */
+.project-info span:first-child {
+  font-weight: bold; /* Make the first element bold, like "CANOPY" */
+}
+
+.project-info span:not(:first-child)::before {
+  content: '•'; /* Add a dot separator between items */
+  margin: 0 4px; /* Adjust space around the dot to keep it closer */
+  color: #707070; /* Dot color */
+}
+
+/* Project Description */
+.project-card p {
+  font-size: 14px;
+  color: #707070;
+  margin-top: 5px;
+}
+
+/* Project Details */
+.project-details {
+  text-align: left; /* Align text to the left */
+  width: 295px; /* Set width to 295px */
+  height: auto; /* Auto height based on content */
+  gap: 12px;
+  opacity: 1;
+  padding: 20px 16px; /* Added padding for spacing inside the card */
+  background-color: white; /* White background for card */
+  margin-bottom: 20px; /* Space between the project cards */
+}
+
+/* Project Title */
+.project-details h3 {
+  font-size: 24px; /* Adjusted font size */
+  font-weight: bold;
+  color: #1f2533;
+  margin: 10px 0; /* Adjusted margin for title */
+}
+
+/* Project Description */
+.project-details p {
+  font-size: 15px; /* Slightly larger for better readability */
+  color: #707070;
+  margin-top: 5px;
+}
