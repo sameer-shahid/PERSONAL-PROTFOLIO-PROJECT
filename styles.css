@@ -382,6 +382,7 @@ ul {
   color: #1f2533;
   cursor: pointer;
   background-color: white;
+  margin-top: 48px;
 }
 
 /* Arrow rotation for opened state */
@@ -524,16 +525,22 @@ ul {
   margin-top: 20px;
 }
 
+
 /* Contact Section */
 .contact {
   width: 375px;
   height: 779px;
   padding: 40px 20px;
-  background-color: #f8f8f8;
-  background-image: url(FORM1.png);
   display: flex;
   flex-direction: column;
   gap: 44px;
+  background-color: #6070ff;
+  border-radius: 70px 0 0 0;
+  color: #fff;
+  background-image: url(contact\ form\ shapes-mobile.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .contact-form {
@@ -595,4 +602,27 @@ ul {
 .contact-form .submit-btn:hover {
   background-color: #5751f5; /* Change background color on hover */
   color: white; /* Ensure the text becomes readable on hover */
+}
+
+.contact-me {
+  width: 100%;
+  height: 779px;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-me .blue {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #6070ff;
+  border-radius: 70px 0 0 0;
+  color: #fff;
+  padding: 114px 24px;
+  background-image: url(src/contact\ form\ shapes-mobile.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
