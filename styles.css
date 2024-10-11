@@ -166,7 +166,6 @@ ul {
   word-wrap: break-word;    /* Ensures long words will break */
 }
 
-
 /* Project Information Box */
 .project-info {
   display: flex;
